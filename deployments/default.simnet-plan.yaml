@@ -54,4 +54,14 @@ plan:
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/consciousness-storage.clar
             clarity-version: 2
+        - emulated-contract-publish:
+            contract-name: consciousness-token
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/consciousness-token.clar
+            clarity-version: 2
+        - emulated-contract-publish:
+            contract-name: transfer-protocol
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/transfer-protocol.clar
+            clarity-version: 2
       epoch: "2.5"
